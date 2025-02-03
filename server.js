@@ -28,5 +28,4 @@ startServer();
 // UZZUtMWvo4h0GNCy
 // mongodb+srv://ifeachorchukwudi4:UZZUtMWvo4h0GNCy@cluster0.trwt8.mongodb.net/Baby-Toys?retryWrites=true&w=majority&appName=Cluster0
 
-
 // SETUP SERVER TO RUN -> MODEL -> CONTROLLER -> ROUTER -> BACK TO APP.JS... their will other folders if neccessary
