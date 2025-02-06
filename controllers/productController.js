@@ -48,7 +48,7 @@ const rateProduct = async (req, res, next) => {
 
     product.ratings.sum += rating;
 
-    product.ratings.average += product.ratings.sum / product.ratings.count;
+    product.ratings.average = product.ratings.sum / product.ratings.count;
 
     await product.save();
 
