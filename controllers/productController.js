@@ -1,5 +1,4 @@
 const Product = require("../models/Product");
-const Product = require("../models/Product");
 
 const getAllProducts = async (req, res, next) => {
   try {
@@ -56,7 +55,7 @@ const rateProduct = async (req, res, next) => {
       message: "Rating submitted successfully",
       updatedRatings: product.ratings,
     });
-  } catch (error) {
+  } catch (err) {
     next(err);
   }
 };

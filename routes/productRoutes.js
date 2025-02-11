@@ -8,7 +8,7 @@ const {
 const router = express.Router();
 
 router.get("/", getAllProducts);
-router.get("/:d", getProductById);
+router.get("/:id", getProductById);
 router.post("/:id/rate", rateProduct);
 
 module.exports = router;
